@@ -1,3 +1,4 @@
+# Limpieza de preproinsulin-seq.txt mediante programación
 #import re
 
 #with open("preproinsulin-seq.txt", "r") as file:
@@ -7,6 +8,8 @@
  
 #with open("preproinsulin-seq.txt", "w") as file:
 #    file.write(sequence)
+
+### Obtención de la secuencia de proteínas de la insulina humana
 
 with open("preproinsulin-seq.txt", "r") as file:
     sequence = file.read()
